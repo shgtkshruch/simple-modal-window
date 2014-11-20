@@ -23,8 +23,10 @@ button:active {
 }
 
 .message {
+  font-size: 24px;
   width: 600px;
   height: 280px;
+  text-align: center; 
   background-color: #DDD;
 }
 
