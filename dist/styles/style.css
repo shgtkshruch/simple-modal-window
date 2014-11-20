@@ -24,12 +24,20 @@ button:active {
 
 .message {
   font-size: 24px;
+  z-index: -1; 
   box-sizing: border-box;
   width: 600px;
   height: 280px;
   padding: 60px;
-  text-align: center; 
+  transition: all .4s cubic-bezier(.68, -.55, .265, 1.55);
+  text-align: center;
+  opacity: 0;
   background-color: #DDD;
+}
+.message.center {
+  -webkit-transform: translate(-50%, -50%) scale(0);
+      -ms-transform: translate(-50%, -50%) scale(0);
+          transform: translate(-50%, -50%) scale(0);
 }
 
 .ok {
@@ -44,6 +52,11 @@ button:active {
 .on {
   z-index: 1; 
   opacity: 1;
+}
+.on.center {
+  -webkit-transform: translate(-50%, -50%) scale(1);
+      -ms-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
 }
 
 .center {

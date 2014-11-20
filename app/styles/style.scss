@@ -32,6 +32,12 @@ button {
   background-color: #ddd;
   font-size: 24px;
   text-align: center;
+  transition: all .4s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  opacity: 0;
+  z-index: -1;
+  &.center {
+    transform: translate(-50%, -50%) scale(0);
+  }
 }
 
 .ok {
@@ -46,6 +52,9 @@ button {
 .on {
   opacity: 1;
   z-index: 1;
+  &.center {
+    transform: translate(-50%, -50%) scale(1);
+  }
 }
 
 .center {
