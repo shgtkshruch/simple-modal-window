@@ -41,6 +41,11 @@ button:active {
   background-color: #57D885;
 }
 
+.on {
+  z-index: 1; 
+  opacity: 1;
+}
+
 .center {
   position: absolute;
   top: 50%;
