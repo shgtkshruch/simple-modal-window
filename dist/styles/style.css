@@ -1,5 +1,7 @@
 button {
+  font-size: 24px;
   cursor: pointer; 
+  text-transform: uppercase;
   color: #FFF;
   border: none;
 }
