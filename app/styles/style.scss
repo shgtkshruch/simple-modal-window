@@ -1,4 +1,7 @@
+$color-click: #57D885;
+
 button {
+  color: #fff;
   border: none;
   cursor: pointer;
   &:focus {
@@ -10,4 +13,5 @@ button {
   display: block;
   height: 80px;
   width: 300px;
+  background-color: $color-click;
 }
