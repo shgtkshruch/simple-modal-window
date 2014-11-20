@@ -22,6 +22,12 @@ button:active {
   background-color: #57D885;
 }
 
+.message {
+  width: 600px;
+  height: 280px;
+  background-color: #DDD;
+}
+
 .center {
   position: absolute;
   top: 50%;
