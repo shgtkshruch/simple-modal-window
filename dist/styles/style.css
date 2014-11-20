@@ -30,6 +30,15 @@ button:active {
   background-color: #DDD;
 }
 
+.ok {
+  display: block;
+  width: 300px;
+  height: 80px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #260016;
+}
+
 .center {
   position: absolute;
   top: 50%;
