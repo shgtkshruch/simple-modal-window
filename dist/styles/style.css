@@ -24,8 +24,10 @@ button:active {
 
 .message {
   font-size: 24px;
+  box-sizing: border-box;
   width: 600px;
   height: 280px;
+  padding: 60px;
   text-align: center; 
   background-color: #DDD;
 }
@@ -36,7 +38,7 @@ button:active {
   height: 80px;
   margin-right: auto;
   margin-left: auto;
-  background-color: #260016;
+  background-color: #57D885;
 }
 
 .center {

@@ -25,8 +25,10 @@ button {
 }
 
 .message {
+  box-sizing: border-box;
   width: 600px;
   height: 280px;
+  padding: 60px;
   background-color: #ddd;
   font-size: 24px;
   text-align: center;
