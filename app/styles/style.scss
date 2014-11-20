@@ -9,6 +9,12 @@ button {
   &:focus {
     outline: none;
   }
+  &:hover {
+    background-color: lighten($color-click, 5%);
+  }
+  &:active {
+    background-color: darken($color-click, 10%);
+  }
 }
 
 .click {
